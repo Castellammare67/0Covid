@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00a4e5"
+    tools:context=".Informa">
+
+    <Button
+        android:id="@+id/btEquipeVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/vermelho"
+        android:onClick="voltar"
+        android:padding="8dp"
+        android:text="@string/srtVoltar"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="422dp"
+        android:layout_height="237dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imgtopoo" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="144dp"
+        android:layout_height="133dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:srcCompat="@drawable/coronavirusblue" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Como Se Previnir"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#00a4e5"
+
+        app:layout_constraintBottom_toTopOf="@+id/btEquipeVoltar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="SpeakableTextPresentCheck">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00a4e5"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="A covid-19 é uma nova doença respiratória, provocada por um novo tipo de coronavírus que ainda não tinha sido identificado em seres humanos.
+"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:padding="2dp"
+                android:text="Propagação e transmissão: "
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:padding="2dp"
+                android:text="O vírus pode se propagar de pessoa para pessoa por meio de
+goticulas do nariz ou da boca que se espalham quando
+alguém doente tosse ou espirra. A maioria dessas goticulas
+cai em superficies e objetos próximos, como mesas ou
+telefones. As pessoas também podem se contaminar ao
+respirarem goticulas provenientes da tosse ou espirro de
+uma pessoa doente."
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:padding="2dp"
+                android:text="A transmissão ocorre, principalmente, de pessoa para
+pessoa e seu período de incubação, que éo tempo para que
+os primeiros sintomas apareçam, pode ser de 2 a 14 dias.: "
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:padding="2dp"
+                android:text="Formas de contágio:\n\n
+-gotículas de saliva:\n
+-espirro;\n
+-tosse:\n
+-catarro;\n
+-contato pessoal próximo, como toque ou aperto de mão;\n
+-contato com objetos ou superfícies contaminadas, seguido
+de contato com a boca, nariz ou olhos.
+ "
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

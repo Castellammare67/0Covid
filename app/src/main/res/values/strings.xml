@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">0 Covid</string>
+    <string name="strDireitos">Direitos Reservados Por 0 Covid</string>
+    <string name="srtVoltar">Voltar</string>
+    <string name="strEquipeTitulo">Equipe 0 Covid</string>
+    <string name="strEquipeDescricao">\"\"\"</string>
+    <string name="StrGwen">Gwen - Gerente de Projetos</string>
+    <string name="StrAlbedo">Albedo - Professora</string>
+    <string name="srtShaltir">Shaltir - Editora de Videos</string>
+    <string name="srtSebas">Sebas - Ceo da Empresa</string>
+    <string name="strTextoFalado">\"\"</string>
+</resources>
