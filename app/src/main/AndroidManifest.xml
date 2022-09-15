@@ -14,14 +14,15 @@
         android:theme="@style/Theme.0Covid"
         tools:targetApi="31">
         <activity
+            android:name=".Desenvolvedores"
+            android:exported="false" />
+        <activity
             android:name=".UnidadeAtendimento"
             android:exported="false" />
         <activity
             android:name=".Midia"
             android:exported="false" />
-        <activity
-            android:name=".Unidadades"
-            android:exported="false" />
+
         <activity
             android:name=".Informa"
             android:exported="false" />

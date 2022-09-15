@@ -72,6 +72,7 @@
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
                 android:layout_height="301dp"
+                android:adjustViewBounds="true"
                 android:onClick="hospital1"
                 app:srcCompat="@drawable/hnsf" />
 
@@ -95,6 +96,7 @@
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
                 android:layout_height="305dp"
+                android:adjustViewBounds="true"
                 android:onClick="hospital2"
                 app:srcCompat="@drawable/imaculada" />
 

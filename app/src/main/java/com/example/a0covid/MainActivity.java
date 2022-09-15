@@ -34,4 +34,9 @@ public class MainActivity extends AppCompatActivity {
         tela = new Intent(getApplicationContext(),Midia.class);
         startActivity(tela);
     }
+
+    public void clikDevs(View view) {
+        tela = new Intent(getApplicationContext(),Desenvolvedores.class);
+        startActivity(tela);
+    }
 }
